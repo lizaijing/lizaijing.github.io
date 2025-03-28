@@ -24,9 +24,6 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the PhD 
 - *2020.09 - 2023.06*, Master’s degrees in Computer Science and Technology, Central South University, China
 - *2016.09 - 2020.06*, Bachelor's degree in Electronic Information Science and Technology, Central South University, China
 
-# 💗 Academic Services
-- Conference Reviewer: CVPR, ICCV, NeurIPS, ICML, ICLR, ACM MM, ACL, EMNLP, COLING.
-- Journal Reviewer: IEEE TKDE.
 
 # 📝 Preprint
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='thumbnails/ecot.png' alt="sym" width="500px"></div></div>
@@ -94,6 +91,21 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 </div>
 
 
+# 🎯 Awards
+- CVPR 2024 - EGO4D Challenge Ego Schema Track, 1st Place Award
+- CVPR 2024 - EGO4D Challenge Natural Language Queries Track, 2nd Place Award
+- CVPR 2024 - EGO4D Challenge Goal Steps Track, 3rd Place Award
+- Excellent Master's Thesis of Hunan Provincial Computer Society, 2024
+- Graduate Student National Fellowships, 2022
+- National Photoelectric Design Competition for College Students, Third Prize, 2018
+- Huawei Cup National Intelligent Design Competition for College Students, First Prize, 2018
+
+
+# 💗 Academic Services
+- Conference Reviewer: CVPR, ICCV, NeurIPS, ICML, ICLR, ACM MM, ACL, EMNLP, COLING.
+- Journal Reviewer: IEEE TKDE.
+
+  
 # 💻 Internships
 - *2022.08 - 2023.03*, Research Intern, DAMO Academy, Alibaba Group, Beijing, China.
 - *2023.05 - 2023.11*, Research Intern, DAMO Academy, Alibaba Group, Hangzhou, China.
