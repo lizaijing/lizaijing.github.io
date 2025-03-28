@@ -35,11 +35,6 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 
 
-
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2022.08 - 2023.03*, Research Intern, DAMO Academy, Alibaba Group, Beijing, China.
+- *2023.05 - 2023.11*, Research Intern, DAMO Academy, Alibaba Group, Hangzhou, China.
