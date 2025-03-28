@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the PhD degree with the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by Prof. [Liqiang Nie](https://liqiangnie.github.io/), and I collaborate closely with Prof. [Rui Shao](https://rshaojimmy.github.io/) and Prof. [Dongmei Jiang](https://scholar.google.com/citations?hl=en&user=Awsue7sAAAAJ). Prior to my Ph.D., I received a Bachelor’s degree in Electronic Information Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2020, and a Master’s degree in Computer Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2023. My research interests predominantly lie in the fields of affective computing, multimodal large language model, reinforcement learning, and open world agents.
+Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the PhD degree with the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by Prof. [Liqiang Nie](https://liqiangnie.github.io/), and I collaborate closely with Prof. [Rui Shao](https://rshaojimmy.github.io/) and Prof. [Dongmei Jiang](https://scholar.google.com/citations?hl=en&user=Awsue7sAAAAJ). Prior to my Ph.D., I received a Bachelor’s degree in Electronic Information Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2020, and a Master’s degree in Computer Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2023, advised by Prof. [Ming Zhao](http://ainetlab.net/index.html) and Prof. [Fengxiao Tang](https://scholar.google.com/citations?user=_QJD5MgAAAAJ&hl=en&authuser=1). My research interests predominantly lie in the fields of affective computing, multimodal large language model, reinforcement learning, and open world agents.
 
 # 📖 Education
 - *2023.09 - present*, Computer Science and Technology Ph.D. student at HITSZ, China
@@ -27,6 +27,19 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the PhD 
 # 💗 Academic Services
 - Conference Reviewer: CVPR, ICCV, NeurIPS, ICML, ICLR, ACM MM, ACL, EMNLP, COLING.
 - Journal Reviewer: IEEE TKDE.
+
+# 📝 Preprint
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='thumbnails/ecot.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Enhancing Emotional Generation Capability of Large Language Models via Emotional Chain-of-Thought**
+
+**Zaijing Li**, Rui Shao*, Gongwei Chen, Yuquan Xie, Dongmei Jiang, Liqiang Nie*
+
+arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836) 
+
+</div>
+</div>
 
 # 📝 Publications 
 
