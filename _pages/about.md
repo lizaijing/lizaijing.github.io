@@ -26,6 +26,38 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the PhD 
 
 
 # 📝 Preprint
+
+
+# 📝 Publications 
+
+Below is a list of selected publications. Please refer to my [Google Scholar](https://scholar.google.com/citations?user=TDBF2UoAAAAJ) page for the full list of publications.
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='thumbnails/optimus2.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Optimus-2: Multimodal Minecraft Agent with Goal-Observation-Action Conditioned Policy**
+
+**Zaijing Li**, Yuquan Xie, Rui Shao*, Gongwei Chen, Dongmei Jiang, Liqiang Nie*
+
+[**CVPR 2025**](https://cvpr.thecvf.com/Conferences/2025) / [Paper](https://arxiv.org/pdf/2502.19902) / [Code](https://github.com/lizaijing/Optimus-2) / [Project page](https://cybertronagent.github.io/Optimus-2.github.io/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='thumbnails/optimus1.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks**
+
+**Zaijing Li**, Yuquan Xie, Rui Shao*, Gongwei Chen, Dongmei Jiang, Liqiang Nie*
+
+[**NeurIPS 2024**](https://neurips.cc/Conferences/2024) / [Paper](https://arxiv.org/pdf/2408.03615) / [Code](https://github.com/JiuTian-VL/Optimus-1) / [Project page](https://cybertronagent.github.io/Optimus-1.github.io/)
+
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='thumbnails/ecot.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -38,40 +70,13 @@ arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836)
 </div>
 </div>
 
-# 📝 Publications 
-
-Below is a list of selected publications. Please refer to my [Google Scholar](https://scholar.google.com/citations?user=TDBF2UoAAAAJ) page for the full list of publications.
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='thumbnails/optimus2.png' alt="sym" width="500px"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Optimus-2: Multimodal Minecraft Agent with Goal-Observation-Action Conditioned Policy**
-
-**Zaijing Li**, Yuquan Xie1, Rui Shao*, Gongwei Chen, Dongmei Jiang, Liqiang Nie*
-
-[**CVPR 2025**](https://cvpr.thecvf.com/Conferences/2025) / [Paper](https://arxiv.org/pdf/2502.19902) / [Code](https://github.com/lizaijing/Optimus-2) / [Project page](https://cybertronagent.github.io/Optimus-2.github.io/)
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='thumbnails/optimus1.png' alt="sym" width="500px"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks**
-
-**Zaijing Li**, Yuquan Xie1, Rui Shao*, Gongwei Chen, Dongmei Jiang, Liqiang Nie*
-
-[**NeurIPS 2024**](https://neurips.cc/Conferences/2024) / [Paper](https://arxiv.org/pdf/2408.03615) / [Code](https://github.com/JiuTian-VL/Optimus-1) / [Project page](https://cybertronagent.github.io/Optimus-1.github.io/)
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2023</div><img src='thumbnails/unisa.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Unisa: Unified Generative Framework for Sentiment Analysis**
 
-**Zaijing Li**, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang*, Ming Zhao*, Yongbin Li*
+**<u>Zaijing Li</u>**, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang*, Ming Zhao*, Yongbin Li*
 
 [**ACM MM 2023**](https://www.acmmm2023.org/) / [Paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612336) / [Code](https://github.com/lizaijing/UniSA) 
 
