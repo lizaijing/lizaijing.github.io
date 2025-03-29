@@ -63,7 +63,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 Haoyu Zhang, Yuquan Xie, Yisen Feng, **<u>Zaijing Li</u>**, Meng Liu, Liqiang Nie
 
-Winner Solution for Ego4D-EgoSchema Challenge / [Paper](https://arxiv.org/pdf/2406.15771) /[Code](https://github.com/Hyu-Zhang/HCQA)
+[**Winner Solution for Ego4D-EgoSchema Challenge**](https://eval.ai/web/challenges/challenge-page/2238/overview) / [Paper](https://arxiv.org/pdf/2406.15771) / [Code](https://github.com/Hyu-Zhang/HCQA)
 
 </div>
 </div>
@@ -75,7 +75,7 @@ Winner Solution for Ego4D-EgoSchema Challenge / [Paper](https://arxiv.org/pdf/24
 
 Yisen Feng, Haoyu Zhang, Yuquan Xie, **<u>Zaijing Li</u>**, Meng Liu, Liqiang Nie
 
-Runner-up Solution for Ego4D-NLQ Challenge / [Paper](https://arxiv.org/pdf/2406.15778) /[Code](https://github.com/Yisen-Feng/ObjectNLQ)
+[**Runner-up Solution for Ego4D-NLQ Challenge**](https://eval.ai/web/challenges/challenge-page/1629/overview) / [Paper](https://arxiv.org/pdf/2406.15778) / [Code](https://github.com/Yisen-Feng/ObjectNLQ)
 
 </div>
 </div>
@@ -119,18 +119,18 @@ arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836)
 
 
 # 🎯 Awards
-- CVPR 2024 - EGO4D Challenge Ego Schema Track, 1st Place Award
-- CVPR 2024 - EGO4D Challenge Natural Language Queries Track, 2nd Place Award
-- CVPR 2024 - EGO4D Challenge Goal Steps Track, 3rd Place Award
-- Outstanding Master's Thesis Award of Hunan Computer Federation, 2024
-- National Graduate Scholarship, 2022
-- National College Student Optoelectronic Design Competition, Third Prize, 2018
-- Huawei Cup National College Student Intelligent Design Competition, First Prize, 2018
+- **CVPR 2024** - EGO4D Challenge Ego Schema Track, **1st Place Award**
+- **CVPR 2024** - EGO4D Challenge Natural Language Queries Track, **2nd Place Award**
+- **CVPR 2024** - EGO4D Challenge Goal Steps Track, **3rd Place Award**
+- **Outstanding Master's Thesis Award** of Hunan Computer Federation, 2024
+- **National Graduate Scholarship**, 2022
+- National College Student Optoelectronic Design Competition, **Third Prize**, 2018
+- Huawei Cup National College Student Intelligent Design Competition, **First Prize**, 2018
 
 
 # 💗 Academic Services
-- Conference Reviewer: CVPR, ICCV, NeurIPS, ICML, ICLR, ACM MM, ACL, EMNLP, COLING.
-- Journal Reviewer: IEEE TKDE.
+- **Conference Reviewer**: CVPR, ICCV, NeurIPS, ICML, ICLR, ACM MM, ACL, EMNLP, COLING.
+- **Journal Reviewer**: IEEE TKDE.
 
   
 # 💻 Internships
