@@ -25,8 +25,6 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the PhD 
 - *2016.09 - 2020.06*, Bachelor's degree in Electronic Information Science and Technology, Central South University, China
 
 
-# 📝 Preprint
-
 
 # 📝 Publications 
 
@@ -37,7 +35,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 **Optimus-2: Multimodal Minecraft Agent with Goal-Observation-Action Conditioned Policy**
 
-**Zaijing Li**, Yuquan Xie, Rui Shao*, Gongwei Chen, Dongmei Jiang, Liqiang Nie*
+**<u>Zaijing Li</u>**, Yuquan Xie, Rui Shao\*, Gongwei Chen, Dongmei Jiang, Liqiang Nie\*
 
 [**CVPR 2025**](https://cvpr.thecvf.com/Conferences/2025) / [Paper](https://arxiv.org/pdf/2502.19902) / [Code](https://github.com/lizaijing/Optimus-2) / [Project page](https://cybertronagent.github.io/Optimus-2.github.io/)
 
@@ -49,7 +47,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 **Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks**
 
-**Zaijing Li**, Yuquan Xie, Rui Shao*, Gongwei Chen, Dongmei Jiang, Liqiang Nie*
+**<u>Zaijing Li</u>**, Yuquan Xie, Rui Shao\*, Gongwei Chen, Dongmei Jiang, Liqiang Nie\*
 
 [**NeurIPS 2024**](https://neurips.cc/Conferences/2024) / [Paper](https://arxiv.org/pdf/2408.03615) / [Code](https://github.com/JiuTian-VL/Optimus-1) / [Project page](https://cybertronagent.github.io/Optimus-1.github.io/)
 
@@ -63,7 +61,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 **Enhancing Emotional Generation Capability of Large Language Models via Emotional Chain-of-Thought**
 
-**Zaijing Li**, Rui Shao*, Gongwei Chen, Yuquan Xie, Dongmei Jiang, Liqiang Nie*
+**<u>Zaijing Li</u>**, Rui Shao\*, Gongwei Chen, Yuquan Xie, Dongmei Jiang, Liqiang Nie\*
 
 arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836) 
 
@@ -76,7 +74,7 @@ arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836)
 
 **Unisa: Unified Generative Framework for Sentiment Analysis**
 
-**<u>Zaijing Li</u>**, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang*, Ming Zhao*, Yongbin Li*
+**<u>Zaijing Li</u>**, Ting-En Lin, Yuchuan Wu, Meng Liu, Fengxiao Tang\*, Ming Zhao\*, Yongbin Li\*
 
 [**ACM MM 2023**](https://www.acmmm2023.org/) / [Paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612336) / [Code](https://github.com/lizaijing/UniSA) 
 
@@ -88,7 +86,7 @@ arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836)
 
 **EmoCaps: Emotion Capsule based Model for Conversational Emotion Recognition**
 
-**Zaijing Li**, Fengxiao Tang*, Ming Zhao*, Yusen Zhu
+**<u>Zaijing Li</u>**, Fengxiao Tang\*, Ming Zhao\*, Yusen Zhu
 
 [**ACL 2022 Findings**](https://www.acmmm2023.org/) / [Paper](https://arxiv.org/pdf/2203.13504) / [Code](https://aclanthology.org/2022.findings-acl.126/) 
 
