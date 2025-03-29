@@ -30,6 +30,8 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the PhD 
 
 Below is a list of selected publications. Please refer to my [Google Scholar](https://scholar.google.com/citations?user=TDBF2UoAAAAJ) page for the full list of publications.
 
+(* denotes corresponding author)
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='thumbnails/optimus2.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -54,7 +56,29 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div><img src='thumbnails/hcqa.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
 
+**HCQA @ Ego4D EgoSchema Challenge 2024**
+
+Haoyu Zhang, Yuquan Xie, Yisen Feng, **<u>Zaijing Li</u>**, Meng Liu, Liqiang Nie
+
+Winner Solution for Ego4D-EgoSchema Challenge / [Paper](https://arxiv.org/pdf/2406.15771) /[Code](https://github.com/Hyu-Zhang/HCQA)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2024</div><img src='thumbnails/objectnlq.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**ObjectNLQ@ Ego4D Episodic Memory Challenge 2024**
+
+Yisen Feng, Haoyu Zhang, Yuquan Xie, **<u>Zaijing Li</u>**, Meng Liu, Liqiang Nie
+
+Runner-up Solution for Ego4D-NLQ Challenge / [Paper](https://arxiv.org/pdf/2406.15778) /[Code](https://github.com/Yisen-Feng/ObjectNLQ)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='thumbnails/ecot.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -98,10 +122,10 @@ arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836)
 - CVPR 2024 - EGO4D Challenge Ego Schema Track, 1st Place Award
 - CVPR 2024 - EGO4D Challenge Natural Language Queries Track, 2nd Place Award
 - CVPR 2024 - EGO4D Challenge Goal Steps Track, 3rd Place Award
-- Excellent Master's Thesis of Hunan Provincial Computer Society, 2024
-- Graduate Student National Fellowships, 2022
-- National Photoelectric Design Competition for College Students, Third Prize, 2018
-- Huawei Cup National Intelligent Design Competition for College Students, First Prize, 2018
+- Outstanding Master's Thesis Award of Hunan Computer Federation, 2024
+- National Graduate Scholarship, 2022
+- National College Student Optoelectronic Design Competition, Third Prize, 2018
+- Huawei Cup National College Student Intelligent Design Competition, First Prize, 2018
 
 
 # 💗 Academic Services
