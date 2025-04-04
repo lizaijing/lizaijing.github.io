@@ -27,7 +27,7 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the Ph.D
 - *2023.08*: &nbsp;🎉🎉 Our [paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612336) about multi-task modeling for emotion recognition is accepted to ACM MM 2023!
 
 # 📖 Educations
-- *2023.09 - present*, Computer Science and Technology Ph.D. student at HITSZ, China
+- *2023.09 - present*, Computer Science and Technology, Ph.D. student at HITSZ, China
 - *2020.09 - 2023.06*, Master’s degrees in Computer Science and Technology, Central South University, China
 - *2016.09 - 2020.06*, Bachelor's degree in Electronic Information Science and Technology, Central South University, China
 
