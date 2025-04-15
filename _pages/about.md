@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the Ph.D. degree with the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by Prof. [Liqiang Nie](https://liqiangnie.github.io/), and I collaborate closely with Prof. [Rui Shao](https://rshaojimmy.github.io/) and Prof. [Dongmei Jiang](https://scholar.google.com/citations?hl=en&user=Awsue7sAAAAJ). Prior to my Ph.D., I received a Bachelor’s degree in Electronic Information Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2020, and a Master’s degree in Computer Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2023, advised by Prof. [Ming Zhao](http://ainetlab.net/index.html) and Prof. [Fengxiao Tang](https://scholar.google.com/citations?user=_QJD5MgAAAAJ&hl=en&authuser=1). My research interests predominantly lie in the fields of affective computing, multimodal large language model, reinforcement learning, and open world agents.
 
-[![Page Views](https://badges.toozhao.com/badges/01HT3G3TKCB61GE5HMQG8XWDHJ/green.svg)](https://badges.toozhao.com/stats/01HT3G3TKCB61GE5HMQG8XWDHJ)
+[![Page Views](https://badges.toozhao.com/badges/01JRVKYJV730EYZ9JC16KJ2BTY/green.svg)](https://badges.toozhao.com/stats/01JRVKYJV730EYZ9JC16KJ2BTY "Get your own page views count badge on badges.toozhao.com")
 
 # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-2**](https://arxiv.org/pdf/2502.19902), has been accepted by CVPR 2025!
