@@ -129,6 +129,7 @@ arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836)
 
 
 # 🎯 Awards
+- Outstanding Reviewers, **CVPR 2025**
 - **CVPR 2024** - EGO4D Challenge Ego Schema Track, **1st Place Award**
 - **CVPR 2024** - EGO4D Challenge Natural Language Queries Track, **2nd Place Award**
 - **CVPR 2024** - EGO4D Challenge Goal Steps Track, **3rd Place Award**
