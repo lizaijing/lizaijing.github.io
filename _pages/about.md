@@ -24,6 +24,8 @@ I'm currently exploring internship and collaboration opportunities in open-world
 [![Page Views](https://badges.toozhao.com/badges/01JRVKYJV730EYZ9JC16KJ2BTY/green.svg)](https://badges.toozhao.com/stats/01JRVKYJV730EYZ9JC16KJ2BTY "Get your own page views count badge on badges.toozhao.com")
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 We propose a new generation of generalist agent in Minecraft, [**Optimus-3**](http://arxiv.org/abs/2506.10357), which integrates planning, perception, grounding, action, and reflection within an end-to-end architecture.
+- *2025.06*: &nbsp;🎉🎉 We have released a new member of the cybertron agent family, [**Mirage-1**](http://arxiv.org/abs/2506.10387), a GUI agent that improves performance in online environments.
 - *2025.02*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-2**](https://arxiv.org/pdf/2502.19902), has been accepted by CVPR 2025!
 - *2024.09*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-1**](https://arxiv.org/pdf/2408.03615), has been accepted by NeurIPS 2024!
 - *2024.06*: &nbsp;🎉🎉 We win the first place of EgoSchema track in CVPR 2024 Ego4D Challenge!
@@ -41,6 +43,32 @@ I'm currently exploring internship and collaboration opportunities in open-world
 Below is a list of selected publications. Please refer to my [Google Scholar](https://scholar.google.com/citations?user=TDBF2UoAAAAJ) page for the full list of publications.
 
 (* denotes corresponding author)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='thumbnails/optimus3.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Optimus-3: Towards Generalist Multimodal Minecraft Agents with Scalable Task Experts**
+
+**<u>Zaijing Li</u>**, Yuquan Xie, Rui Shao\*, Gongwei Chen, Weili Guan, Dongmei Jiang, Liqiang Nie\*
+
+[Paper](https://arxiv.org/pdf/2506.10357) / [Code](https://github.com/JiuTian-VL/Optimus-3) / [Project page](https://cybertronagent.github.io/Optimus-3.github.io/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='thumbnails/mirage1.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Mirage-1: Augmenting and Updating GUI Agent with Hierarchical Multimodal Skills**
+
+Yuquan Xie, **<u>Zaijing Li</u>**, Rui Shao\*, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Dongmei Jiang, Liqiang Nie\*
+
+[Paper](https://arxiv.org/pdf/2506.10387) / [Code](https://github.com/JiuTian-VL/Mirage-1) / [Project page](https://cybertronagent.github.io/Mirage-1.github.io/)
+
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='thumbnails/optimus2.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
