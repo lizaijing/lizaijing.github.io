@@ -49,7 +49,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 **Optimus-3: Towards Generalist Multimodal Minecraft Agents with Scalable Task Experts**
 
-**<u>Zaijing Li</u>**, Yuquan Xie, Rui Shao\*, Gongwei Chen, Weili Guan, Dongmei Jiang, Liqiang Nie\*
+**<u>Zaijing Li</u>**, <span style="color:lightgray"> Yuquan Xie, Rui Shao\*, Gongwei Chen, Weili Guan, Dongmei Jiang, Liqiang Nie\* </span>
 
 [Paper](https://arxiv.org/pdf/2506.10357) / [Code](https://github.com/JiuTian-VL/Optimus-3) / [Project page](https://cybertronagent.github.io/Optimus-3.github.io/)
 
