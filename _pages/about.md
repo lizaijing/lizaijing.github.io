@@ -21,7 +21,7 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the Ph.D
 
 I'm currently exploring internship and collaboration opportunities in open-world agent research. Please feel free to contact me if you're interested.
 
-[![Page Views](https://badges.toozhao.com/badges/01JRVKYJV730EYZ9JC16KJ2BTY/green.svg)](https://badges.toozhao.com/stats/01JRVKYJV730EYZ9JC16KJ2BTY "Get your own page views count badge on badges.toozhao.com")
+![Page Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flizaijing.github.io&title=page%20views)
 
 # 🔥 News
 - *2025.06*: &nbsp;🎉🎉 We propose a new generation of generalist agent in Minecraft, [**Optimus-3**](http://arxiv.org/abs/2506.10357), which integrates planning, perception, grounding, action, and reflection within an end-to-end architecture.
