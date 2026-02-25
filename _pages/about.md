@@ -19,12 +19,10 @@ redirect_from:
 
 Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the Ph.D. degree with the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by Prof. [Liqiang Nie](https://liqiangnie.github.io/), and I collaborate closely with Prof. [Rui Shao](https://rshaojimmy.github.io/) and Prof. [Dongmei Jiang](https://scholar.google.com/citations?hl=en&user=Awsue7sAAAAJ). Prior to my Ph.D., I received a Master’s degree in Computer Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2023, advised by Prof. [Ming Zhao](http://ainetlab.net/index.html) and Prof. [Fengxiao Tang](https://scholar.google.com/citations?user=_QJD5MgAAAAJ&hl=en&authuser=1), and a Bachelor’s degree in Electronic Information Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2020. My research interests predominantly lie in the fields of multimodal large language model, reinforcement learning, and open world agents.
 
-I'm currently exploring internship and collaboration opportunities in open-world agent research. Please feel free to contact me if you're interested.
-
-![Page Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flizaijing.github.io&title=page%20views&count_bg=%2300A650&title_bg=%23555555)
 
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 Our work on vision-language-action model, [**OptimusVLA**](https://arxiv.org/pdf/2602.20020), has been accepted by CVPR 2026!
 - *2025.06*: &nbsp;🎉🎉 We propose a new generation of generalist agent in Minecraft, [**Optimus-3**](http://arxiv.org/abs/2506.10357), which integrates planning, perception, grounding, action, and reflection within an end-to-end architecture.
 - *2025.06*: &nbsp;🎉🎉 We have released a new member of the cybertron agent family, [**Mirage-1**](http://arxiv.org/abs/2506.10387), a GUI agent that improves performance in online environments.
 - *2025.02*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-2**](https://arxiv.org/pdf/2502.19902), has been accepted by CVPR 2025!
@@ -45,10 +43,22 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 (* denotes corresponding author)
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='thumbnails/optimusvla.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Global Prior Meets Local Consistency: Dual-Memory Augmented Vision-Language-Action Model for Efficient Robotic Manipulation**
+
+**<u>Zaijing Li</u>**, <span style="color:#808080"> Bing Hu, Rui Shao\*, Gongwei Chen, Dongmei Jiang\*, Pengwei Xie, Jianye Hao, Liqiang Nie </span>
+
+[**CVPR 2026**](https://arxiv.org/abs/2602.20200) / [Paper](https://arxiv.org/abs/2602.20200) / [Code](https://github.com/JiuTian-VL/OptimusVLA) / [Project page](https://cybertronagent.github.io/OptimusVLA.github.io/)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='thumbnails/optimus3.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Optimus-3: Towards Generalist Multimodal Minecraft Agents with Scalable Task Experts**
+**Optimus-3: Dual-Router Aligned Mixture-of-Experts Agent with Dual-Granularity Reasoning-Aware Policy Optimization**
 
 **<u>Zaijing Li</u>**, <span style="color:#808080"> Yuquan Xie, Rui Shao\*, Gongwei Chen, Weili Guan, Dongmei Jiang, Liqiang Nie\* </span>
 
@@ -158,6 +168,8 @@ arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836)
 
 
 # 🎯 Awards
+- PengCheng Laboratory Scholarship, 2025
+- **Outstanding Master’s Thesis** of Hunan Province, 2025
 - Outstanding Reviewers, **CVPR 2025**
 - **CVPR 2024** - EGO4D Challenge Ego Schema Track, **1st Place Award**
 - **CVPR 2024** - EGO4D Challenge Natural Language Queries Track, **2nd Place Award**
@@ -169,7 +181,7 @@ arXiv 2024 / [Paper](https://arxiv.org/pdf/2401.06836)
 
 
 # 💗 Academic Services
-- **Conference Reviewer**: CVPR, ICCV, NeurIPS, ICML, ICLR, ACM MM, ACL, EMNLP, COLING.
+- **Conference Reviewer**: CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, ACM MM, ACL, AAAI.
 - **Journal Reviewer**: IEEE TKDE.
 
   
