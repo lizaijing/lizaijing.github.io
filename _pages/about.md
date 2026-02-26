@@ -67,6 +67,18 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='thumbnails/hiconagent.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Hiconagent: History context-aware policy optimization for gui agents**
+
+<span style="color:#808080">Xurui Zhou, Gongwei Chen, Yuquan Xie,</span> **<u>Zaijing Li</u>**, <span style="color:#808080"> Kaiwen Zhou, Shuai Wang, Shuo Yang, Zhuotao Tian, Rui Shao\* </span>
+
+[**CVPR 2026**](https://arxiv.org/abs/2512.01763) / [Paper](https://arxiv.org/abs/2512.01763) / [Code](https://github.com/JiuTian-VL/HiconAgent) / [Project page](https://github.com/JiuTian-VL/HiconAgent)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='thumbnails/mirage1.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
