@@ -24,7 +24,7 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 ### 🎮 Minecraft Agents
 - [**Optimus-1**](https://cybertronagent.github.io/Optimus-1.github.io/): *Hybrid Multimodal Memory* for long-horizon planning and reflection  [[NeurIS 2024](https://arxiv.org/pdf/2408.03615)] 
 - [**Optimus-2**](https://cybertronagent.github.io/Optimus-2.github.io/): *Action-guided Behavior Encoder* for action history sequence modeling  [[CVPR 2025](https://arxiv.org/pdf/2502.19902)]
-- [**Optimus-3**](https://cybertronagent.github.io/Optimus-3.github.io/)): *Dual-Router Aligned MoE* for coupling System 1 and System 2  
+- [**Optimus-3**](https://cybertronagent.github.io/Optimus-3.github.io/): *Dual-Router Aligned MoE* for coupling System 1 and System 2  
 
 ### 🤖 Robotic Manipulation
 - [**OptimusVLA**](https://cybertronagent.github.io/OptimusVLA.github.io/): *Global Prior Alignment and Local Consistency Constraints* for efficient action generation [[CVPR 2026](https://arxiv.org/pdf/2602.20200)] 
