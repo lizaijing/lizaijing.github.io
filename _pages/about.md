@@ -28,7 +28,7 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 
 ### 🤖 Robotic Manipulation
 - [**OptimusVLA**](https://arxiv.org/pdf/2602.20200): *Global Prior Alignment and Local Consistency Constraints* for efficient action generation  
-- **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation encoding and decoding  
+- **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation learning 
 
 ### 🖥️ GUI Agents
 - [**Mirage-1**](http://arxiv.org/pdf/2506.10387): *Hierarchical Multimodal Skills* for skill learning and updating  
