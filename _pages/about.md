@@ -22,7 +22,7 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the Ph.D
 My research primarily focuses on **Embodied Agents** in both **virtual** and **physical** environments.  In particular, I investigate how different forms of memory—**long-term memory**, **short-term memory**, and **parametric memory**—can be leveraged to enhance agent capabilities and performance. To this end, we have developed the **Optimus** family of agents across diverse domains.
 
 ### 🎮 Minecraft Agents
-- [**Optimus-1**](https://cybertronagent.github.io/Optimus-1.github.io/): *Hybrid Multimodal Memory* for long-horizon planning and reflection  [[NeurIS 2024](https://arxiv.org/pdf/2408.03615)] 
+- [**Optimus-1**](https://cybertronagent.github.io/Optimus-1.github.io/): *Hybrid Multimodal Memory* for long-horizon planning and reflection  [[NeurIPS 2024](https://arxiv.org/pdf/2408.03615)] 
 - [**Optimus-2**](https://cybertronagent.github.io/Optimus-2.github.io/): *Action-guided Behavior Encoder* for action history sequence modeling  [[CVPR 2025](https://arxiv.org/pdf/2502.19902)]
 - [**Optimus-3**](https://cybertronagent.github.io/Optimus-3.github.io/): *Dual-Router Aligned MoE* for coupling System 1 and System 2  
 
