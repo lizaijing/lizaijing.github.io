@@ -22,17 +22,17 @@ Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the Ph.D
 My research primarily focuses on **Embodied Agents** in both **virtual** and **physical** environments.  In particular, I investigate how different forms of memory—**long-term memory**, **short-term memory**, and **parametric memory**—can be leveraged to enhance agent capabilities and performance. To this end, we have developed the **Optimus** family of agents across diverse domains.
 
 ### 🎮 Minecraft Agents
-- [**Optimus-1**](https://arxiv.org/pdf/2408.03615): *Hybrid Multimodal Memory* for long-horizon planning and reflection  
-- [**Optimus-2**](https://arxiv.org/pdf/2502.19902): *Action-guided Behavior Encoder* for action history sequence modeling  
-- [**Optimus-3**](http://arxiv.org/abs/2506.10357): *Dual-Router Aligned MoE* for coupling System 1 and System 2  
+- [**Optimus-1**](https://cybertronagent.github.io/Optimus-1.github.io/): *Hybrid Multimodal Memory* for long-horizon planning and reflection  [[NeurIS 2024](https://arxiv.org/pdf/2408.03615)] 
+- [**Optimus-2**](https://cybertronagent.github.io/Optimus-2.github.io/): *Action-guided Behavior Encoder* for action history sequence modeling  [[CVPR 2025](https://arxiv.org/pdf/2502.19902)]
+- [**Optimus-3**](https://cybertronagent.github.io/Optimus-3.github.io/)): *Dual-Router Aligned MoE* for coupling System 1 and System 2  
 
 ### 🤖 Robotic Manipulation
-- [**OptimusVLA**](https://arxiv.org/pdf/2602.20200): *Global Prior Alignment and Local Consistency Constraints* for efficient action generation  
+- [**OptimusVLA**](https://cybertronagent.github.io/OptimusVLA.github.io/): *Global Prior Alignment and Local Consistency Constraints* for efficient action generation [[CVPR 2026](https://arxiv.org/pdf/2602.20200)] 
 - **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation learning 
 
 ### 🖥️ GUI Agents
-- [**Mirage-1**](http://arxiv.org/pdf/2506.10387): *Hierarchical Multimodal Skills* for skill learning and updating  
-- [**HiconAgent**](https://arxiv.org/abs/2512.01763): *History Context-Aware Optimization* for reinforcement learning with short-term memory  
+- [**Mirage-1**](https://cybertronagent.github.io/Mirage-1.github.io/): *Hierarchical Multimodal Skills* for skill learning and updating  
+- [**HiconAgent**](https://github.com/JiuTian-VL/HiconAgent): *History Context-Aware Optimization* for reinforcement learning with short-term memory [[CVPR 2026](https://arxiv.org/pdf/2512.01763)]
 
 ### 🎭 Emotional Agents
 - **Optimus-E**: Short-term memory for emotional recognition, understanding, and generation
