@@ -34,7 +34,7 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 - [**Mirage-1**](http://arxiv.org/pdf/2506.10387): *Hierarchical Multimodal Skills* for skill learning and updating  
 - [**HiconAgent**](https://arxiv.org/abs/2512.01763): *History Context-Aware Optimization* for reinforcement learning with short-term memory  
 
-### 💡 Emotional Agents
+### 🎭 Emotional Agents
 - **Optimus-E**: Short-term memory for emotional recognition, understanding, and generation
 
 # 🔥 News
