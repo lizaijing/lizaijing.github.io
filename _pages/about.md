@@ -17,9 +17,25 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the Ph.D. degree with the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by Prof. [Liqiang Nie](https://liqiangnie.github.io/), and I collaborate closely with Prof. [Rui Shao](https://rshaojimmy.github.io/) and Prof. [Dongmei Jiang](https://scholar.google.com/citations?hl=en&user=Awsue7sAAAAJ). Prior to my Ph.D., I received a Master’s degree in Computer Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2023, advised by Prof. [Ming Zhao](http://ainetlab.net/index.html) and Prof. [Fengxiao Tang](https://scholar.google.com/citations?user=_QJD5MgAAAAJ&hl=en&authuser=1), and a Bachelor’s degree in Electronic Information Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2020. My research interests predominantly lie in the fields of multimodal large language model, reinforcement learning, and open world agents. [View My Resume](/thumbnails/Zaijing_Li_CV.pdf). If you are interested in my research, please feel free to contact me at: lzj14011 [at] gmail [dot] com.
+Hi, I'm Zaijing Li (李在京 in Chinese). I'm currently working toward the Ph.D. degree with the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by Prof. [Liqiang Nie](https://liqiangnie.github.io/), and I collaborate closely with Prof. [Rui Shao](https://rshaojimmy.github.io/) and Prof. [Dongmei Jiang](https://scholar.google.com/citations?hl=en&user=Awsue7sAAAAJ). Prior to my Ph.D., I received a Master’s degree in Computer Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2023, advised by Prof. [Ming Zhao](http://ainetlab.net/index.html) and Prof. [Fengxiao Tang](https://scholar.google.com/citations?user=_QJD5MgAAAAJ&hl=en&authuser=1), and a Bachelor’s degree in Electronic Information Science and Technology from [Central South University](https://www.csu.edu.cn/) in 2020. [View My Resume](/thumbnails/Zaijing_Li_CV.pdf). If you are interested in my research, please feel free to contact me at: lzj14011 [at] gmail [dot] com.
 
+My research primarily focuses on **Embodied Agents** in both **virtual** and **physical** environments.  In particular, I investigate how different forms of memory—**long-term memory**, **short-term memory**, and **parametric memory**—can be leveraged to enhance agent capabilities and performance. To this end, we have developed the **Optimus** family of agents across diverse domains.
 
+### 🎮 Minecraft Agents
+- [**Optimus-1**](https://arxiv.org/pdf/2408.03615): *Hybrid Multimodal Memory* for long-horizon planning and reflection  
+- [**Optimus-2**](https://arxiv.org/pdf/2502.19902): *Action-guided Behavior Encoder* for action history sequence modeling  
+- [**Optimus-3**](http://arxiv.org/abs/2506.10357): *Dual-Router Aligned MoE* for coupling System 1 and System 2  
+
+### 🤖 Robotic Manipulation
+- [**OptimusVLA**](https://arxiv.org/pdf/2602.20200): *Global Prior Alignment and Local Consistency Constraints* for efficient action generation  
+- **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation encoding and decoding  
+
+### 🖥️ GUI Agents
+- [**Mirage-1**](http://arxiv.org/pdf/2506.10387): *Hierarchical Multimodal Skills* for skill learning and updating  
+- [**HiconAgent**](https://arxiv.org/abs/2512.01763): *History Context-Aware Optimization* for reinforcement learning with short-term memory  
+
+### 💡 Emotional Agents
+- **Optimus-E**: Short-term memory for emotional recognition, understanding, and generation
 
 # 🔥 News
 - *2026.02*: &nbsp;🎉🎉 Our work on vision-language-action model, [**OptimusVLA**](https://arxiv.org/pdf/2602.20200), has been accepted by CVPR 2026!
