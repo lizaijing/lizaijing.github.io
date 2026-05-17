@@ -28,7 +28,7 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 
 ### 🤖 Robotic Manipulation
 - [**OptimusVLA**](https://cybertronagent.github.io/OptimusVLA.github.io/): *Global Prior Alignment and Local Consistency Constraints* for efficient action generation [[CVPR 2026](https://arxiv.org/pdf/2602.20200)] 
-- **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation learning [[ICML 2026](https://icml.cc/)]
+- **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation learning [[ICML 2026 Spotlight](https://icml.cc/)]
 - **Optimus-R**: *Inline Memory with Reusable Skills* for Robotic Efficient Adaptation 
 
 ### 🖥️ GUI Agents
