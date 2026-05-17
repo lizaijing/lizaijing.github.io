@@ -41,12 +41,12 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 # 🔥 News
 - *2026.05*: &nbsp;🎉🎉 Our work on vision-language-action model, [**BehaviorVLA**](https://icml.cc/), has been accepted by ICML 2026 as Spotlight!
 - *2026.02*: &nbsp;🎉🎉 Our work on vision-language-action model, [**OptimusVLA**](https://arxiv.org/pdf/2602.20200), has been accepted by CVPR 2026!
+- *2025.09*: &nbsp;🎉🎉 Our work on embodied perception, [SpatialMind](https://arxiv.org/abs/2506.03642), has been accepted by NeurIPS 2025 as Spotlight!
 - *2025.06*: &nbsp;🎉🎉 We propose a new generation of generalist agent in Minecraft, [**Optimus-3**](http://arxiv.org/abs/2506.10357), which integrates planning, perception, grounding, action, and reflection within an end-to-end architecture.
 - *2025.06*: &nbsp;🎉🎉 We have released a new member of the cybertron agent family, [**Mirage-1**](http://arxiv.org/abs/2506.10387), a GUI agent that improves performance in online environments.
 - *2025.02*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-2**](https://arxiv.org/pdf/2502.19902), has been accepted by CVPR 2025!
 - *2024.09*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-1**](https://arxiv.org/pdf/2408.03615), has been accepted by NeurIPS 2024!
 - *2024.06*: &nbsp;🎉🎉 We win the first place of EgoSchema track in CVPR 2024 Ego4D Challenge!
-- *2024.02*: &nbsp;🎉🎉 Our recent work on emotional generation of LLM is now on [arXiv](https://arxiv.org/pdf/2401.06836).
 - *2023.08*: &nbsp;🎉🎉 Our [paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612336) about multi-task modeling for emotion recognition is accepted to ACM MM 2023!
 
 # 📖 Educations
