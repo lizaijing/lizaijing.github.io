@@ -66,7 +66,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 **From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model**
 
-<span style="color:#808080"> Bing Hu </span>, **<u>Zaijing Li</u>**, <span style="color:#808080"> Rui Shao\*, Junda Chen, April Hua Liu, Wei-Shi Zheng, Liqiang Nie </span>
+<span style="color:#808080"> Bing Hu, </span> **<u>Zaijing Li</u>**, <span style="color:#808080"> Rui Shao\*, Junda Chen, April Hua Liu, Wei-Shi Zheng, Liqiang Nie </span>
 
 [**ICML 2026**](https://arxiv.org/abs/2605.22671) / [Paper](https://arxiv.org/abs/2605.22671)  / [Project page](https://mrok24.github.io/BehaviorVLA/)
 
