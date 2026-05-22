@@ -28,7 +28,7 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 
 ### 🤖 Robotic Manipulation
 - [**OptimusVLA**](https://cybertronagent.github.io/OptimusVLA.github.io/): *Global Prior Alignment and Local Consistency Constraints* for efficient action generation [[CVPR 2026](https://arxiv.org/pdf/2602.20200)] 
-- **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation learning [[ICML 2026 Spotlight](https://icml.cc/)]
+- **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation learning [[ICML 2026 Spotlight](https://arxiv.org/abs/2605.22671)]
 - **Optimus-R**: *Inline Memory with Reusable Skills* for Robotic Efficient Adaptation 
 
 ### 🖥️ GUI Agents
@@ -39,9 +39,9 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 - **Optimus-E**: Short-term memory for emotional recognition, understanding, and generation
 
 # 🔥 News
-- *2026.05*: &nbsp;🎉🎉 Our work on vision-language-action model, [**BehaviorVLA**](https://icml.cc/), has been accepted by ICML 2026 as Spotlight!
+- *2026.05*: &nbsp;🎉🎉 Our work on vision-language-action model, [**BehaviorVLA**](https://arxiv.org/abs/2605.22671), has been accepted by ICML 2026 as Spotlight!
 - *2026.02*: &nbsp;🎉🎉 Our work on vision-language-action model, [**OptimusVLA**](https://arxiv.org/pdf/2602.20200), has been accepted by CVPR 2026!
-- *2025.09*: &nbsp;🎉🎉 Our work on embodied perception, [SpatialMind](https://arxiv.org/abs/2506.03642), has been accepted by NeurIPS 2025 as Spotlight!
+- *2025.09*: &nbsp;🎉🎉 Our work on embodied perception, [**SpatialMind**](https://arxiv.org/abs/2506.03642), has been accepted by NeurIPS 2025 as Spotlight!
 - *2025.06*: &nbsp;🎉🎉 We propose a new generation of generalist agent in Minecraft, [**Optimus-3**](http://arxiv.org/abs/2506.10357), which integrates planning, perception, grounding, action, and reflection within an end-to-end architecture.
 - *2025.06*: &nbsp;🎉🎉 We have released a new member of the cybertron agent family, [**Mirage-1**](http://arxiv.org/abs/2506.10387), a GUI agent that improves performance in online environments.
 - *2025.02*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-2**](https://arxiv.org/pdf/2502.19902), has been accepted by CVPR 2025!
@@ -60,6 +60,18 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 Below is a list of selected publications. Please refer to my [Google Scholar](https://scholar.google.com/citations?user=TDBF2UoAAAAJ) page for the full list of publications.
 
 (* denotes corresponding author)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026 Spotlight</div><img src='thumbnails/behaviorvla.png' alt="sym" width="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model**
+
+Bing Hu, **<u>Zaijing Li</u>**, <span style="color:#808080">, Rui Shao\*, Junda Chen, April Hua Liu, Wei-Shi Zheng, Liqiang Nie </span>
+
+[**ICML 2026**](https://arxiv.org/abs/2605.22671) / [Paper](https://arxiv.org/abs/2605.22671)  / [Project page](https://mrok24.github.io/BehaviorVLA/)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='thumbnails/optimusvla.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
