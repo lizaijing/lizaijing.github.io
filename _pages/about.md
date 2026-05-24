@@ -28,7 +28,7 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 
 ### 🤖 Robotic Manipulation
 - [**OptimusVLA**](https://cybertronagent.github.io/OptimusVLA.github.io/): *Global Prior Alignment and Local Consistency Constraints* for efficient action generation [[CVPR 2026](https://arxiv.org/pdf/2602.20200)] 
-- **BehaviorVLA**: *Visuomotor Behavior Encoder* for behavior representation learning [[ICML 2026 Spotlight](https://arxiv.org/abs/2605.22671)]
+- [**BehaviorVLA**](https://arxiv.org/abs/2605.22671): *Visuomotor Behavior Encoder* for behavior representation learning [[ICML 2026 Spotlight](https://arxiv.org/abs/2605.22671)]
 - **Optimus-R**: *Inline Memory with Reusable Skills* for Robotic Efficient Adaptation 
 
 ### 🖥️ GUI Agents
@@ -39,7 +39,7 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 - **Optimus-E**: Short-term memory for emotional recognition, understanding, and generation
 
 # 🔥 News
-- *2026.05*: &nbsp;🎉🎉 Our work on vision-language-action model, [**BehaviorVLA**](https://arxiv.org/abs/2605.22671), has been accepted by ICML 2026 as Spotlight!
+- *2026.05*: &nbsp;🎉🎉 Our work on vision-language-action model, [**BehaviorVLA**](https://arxiv.org/abs/2605.22671), has been accepted by ICML 2026 as <strong style="color: red;">Oral (Top 0.7%)!</strong>!
 - *2026.02*: &nbsp;🎉🎉 Our work on vision-language-action model, [**OptimusVLA**](https://arxiv.org/pdf/2602.20200), has been accepted by CVPR 2026!
 - *2025.09*: &nbsp;🎉🎉 Our work on embodied perception, [**SpatialMind**](https://arxiv.org/abs/2506.03642), has been accepted by NeurIPS 2025 as Spotlight!
 - *2025.06*: &nbsp;🎉🎉 We propose a new generation of generalist agent in Minecraft, [**Optimus-3**](http://arxiv.org/abs/2506.10357), which integrates planning, perception, grounding, action, and reflection within an end-to-end architecture.
