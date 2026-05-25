@@ -61,7 +61,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 (* denotes corresponding author)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026 Spotlight</div><img src='thumbnails/BehaviorVLA.png' alt="sym" width="500px"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026 Oral</div><img src='thumbnails/BehaviorVLA.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model**
@@ -109,7 +109,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='thumbnails/spacialmind.png' alt="sym" width="500px"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Spotlight</div><img src='thumbnails/spacialmind.png' alt="sym" width="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Spatial Understanding from Videos: Structured Prompts Meet Simulation Data**
