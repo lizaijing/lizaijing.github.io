@@ -47,7 +47,7 @@ My research primarily focuses on **Embodied Agents** in both **virtual** and **p
 - *2025.02*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-2**](https://arxiv.org/pdf/2502.19902), has been accepted by CVPR 2025!
 - *2024.09*: &nbsp;🎉🎉 Our work on open-world agents, [**Optimus-1**](https://arxiv.org/pdf/2408.03615), has been accepted by NeurIPS 2024!
 - *2024.06*: &nbsp;🎉🎉 We win the first place of EgoSchema track in CVPR 2024 Ego4D Challenge!
-- *2023.08*: &nbsp;🎉🎉 Our [paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612336) about multi-task modeling for emotion recognition is accepted to ACM MM 2023!
+- *2023.08*: &nbsp;🎉🎉 Our work on multitask modeling for emotion recognition, [UniSA](https://dl.acm.org/doi/abs/10.1145/3581783.3612336), has been accepted by ACM MM 2023!
 
 # 📖 Educations
 - *2023.09 - present*, Computer Science and Technology, Ph.D. student at HITSZ, China
