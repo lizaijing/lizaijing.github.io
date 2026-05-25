@@ -116,7 +116,7 @@ Below is a list of selected publications. Please refer to my [Google Scholar](ht
 
 <span style="color:#808080">Haoyu Zhang, Meng Liu,</span> **<u>Zaijing Li</u>**, <span style="color:#808080"> Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie\* </span>
 
-[**NeurIPS 2025**](https://arxiv.org/abs/2506.03642) / [Paper](https://arxiv.org/abs/2506.03642) / [Code](https://github.com/Hyu-Zhang/SpatialMind) / [Project page](https://github.com/Hyu-Zhang/SpatialMind)
+[**NeurIPS 2025 Spotlight**](https://arxiv.org/abs/2506.03642) / [Paper](https://arxiv.org/abs/2506.03642) / [Code](https://github.com/Hyu-Zhang/SpatialMind) / [Project page](https://github.com/Hyu-Zhang/SpatialMind)
 
 </div>
 </div>
