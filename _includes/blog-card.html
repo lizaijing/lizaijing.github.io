@@ -1,0 +1,45 @@
+<article class="blog-card">
+  <a class="blog-card__link" href="{{ include.post.url | relative_url }}">
+
+    <div class="blog-card__meta">
+      <span class="blog-card__language">
+        {% if include.post.lang == "zh" %}
+          中文
+        {% else %}
+          English
+        {% endif %}
+      </span>
+
+      <time datetime="{{ include.post.date | date_to_xmlschema }}">
+        {{ include.post.date | date: "%Y.%m.%d" }}
+      </time>
+
+      {% if include.post.reading_time %}
+        <span>{{ include.post.reading_time }}</span>
+      {% endif %}
+    </div>
+
+    <h3 class="blog-card__title">
+      {{ include.post.title }}
+    </h3>
+
+    <p class="blog-card__description">
+      {{ include.post.description
+        | default: include.post.excerpt
+        | strip_html
+        | strip_newlines
+        | truncate: 180 }}
+    </p>
+
+    <footer class="blog-card__footer">
+      <div class="blog-card__tags">
+        {% for tag in include.post.tags limit: 3 %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+
+      <span class="blog-card__arrow" aria-hidden="true">→</span>
+    </footer>
+
+  </a>
+</article>
