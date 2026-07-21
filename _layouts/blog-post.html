@@ -1,0 +1,195 @@
+---
+layout: compress
+---
+
+{% assign translations = site.posts
+  | where: "translation_key", page.translation_key %}
+
+{% assign translated_post = nil %}
+
+{% for item in translations %}
+  {% if item.lang != page.lang %}
+    {% assign translated_post = item %}
+  {% endif %}
+{% endfor %}
+
+<!doctype html>
+<html
+  lang="{{ page.lang | default: site.locale | default: 'en' }}"
+  class="no-js"
+>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="research-article-page">
+    {% include browser-upgrade.html %}
+
+    <div class="reading-progress" aria-hidden="true">
+      <span data-reading-progress></span>
+    </div>
+
+    <main class="research-article-shell" role="main">
+      <nav class="research-article-nav" aria-label="Article navigation">
+        <a
+          class="research-article-nav__back"
+          href="{{ '/blog/' | relative_url }}"
+        >
+          <span aria-hidden="true">←</span>
+          <span>
+            {% if page.lang == "zh" %}
+              返回博客
+            {% else %}
+              Back to blog
+            {% endif %}
+          </span>
+        </a>
+
+        {% if translated_post %}
+          <a
+            class="research-article-nav__language"
+            href="{{ translated_post.url | relative_url }}"
+          >
+            {% if page.lang == "zh" %}
+              English
+            {% else %}
+              中文
+            {% endif %}
+          </a>
+        {% endif %}
+      </nav>
+
+      <article class="research-article">
+        <header class="research-article__header">
+          <p class="research-article__eyebrow">
+            {% if page.lang == "zh" %}
+              研究随笔
+            {% else %}
+              RESEARCH NOTE
+            {% endif %}
+          </p>
+
+          <div class="research-article__meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+              {% if page.lang == "zh" %}
+                {{ page.date | date: "%Y年%m月%d日" }}
+              {% else %}
+                {{ page.date | date: "%B %d, %Y" }}
+              {% endif %}
+            </time>
+
+            {% if page.reading_time %}
+              <span aria-hidden="true">·</span>
+              <span>{{ page.reading_time }}</span>
+            {% endif %}
+          </div>
+
+          <h1>{{ page.title }}</h1>
+
+          {% if page.subtitle %}
+            <p class="research-article__subtitle">
+              {{ page.subtitle }}
+            </p>
+          {% endif %}
+
+          {% if page.tags %}
+            <div class="research-article__tags" aria-label="Article tags">
+              {% for tag in page.tags %}
+                <span>{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if page.pdf or page.paper_url %}
+            <div class="research-article__actions">
+              {% if page.paper_url %}
+                <a
+                  href="{{ page.paper_url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Related paper
+                </a>
+              {% endif %}
+
+              {% if page.pdf %}
+                <a href="{{ page.pdf | relative_url }}">
+                  Download PDF
+                </a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </header>
+
+        {% if page.cover %}
+          <figure class="research-article__cover">
+            <img
+              src="{{ page.cover | relative_url }}"
+              alt="{{ page.cover_alt | default: page.title | escape }}"
+              fetchpriority="high"
+              decoding="async"
+            >
+          </figure>
+        {% endif %}
+
+        <div class="research-article__content">
+          {{ content }}
+        </div>
+
+        <footer class="research-article__footer">
+          <div>
+            <p>
+              {% if page.lang == "zh" %}
+                感谢阅读
+              {% else %}
+                Thanks for reading
+              {% endif %}
+            </p>
+
+            <a href="{{ '/blog/' | relative_url }}">
+              {% if page.lang == "zh" %}
+                查看全部博客
+              {% else %}
+                View all posts
+              {% endif %}
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </footer>
+      </article>
+    </main>
+
+    {% include scripts.html %}
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var progress = document.querySelector("[data-reading-progress]");
+
+        if (!progress) {
+          return;
+        }
+
+        function updateReadingProgress() {
+          var documentHeight =
+            document.documentElement.scrollHeight - window.innerHeight;
+
+          var percent =
+            documentHeight > 0
+              ? Math.min(100, Math.max(0, window.scrollY / documentHeight * 100))
+              : 0;
+
+          progress.style.width = percent + "%";
+        }
+
+        updateReadingProgress();
+
+        window.addEventListener("scroll", updateReadingProgress, {
+          passive: true
+        });
+
+        window.addEventListener("resize", updateReadingProgress);
+      });
+    </script>
+  </body>
+</html>
