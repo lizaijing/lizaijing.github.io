@@ -378,7 +378,46 @@
 .page__content .blog-post__footer a:hover {
   text-decoration: underline;
 }
+/* ==========================================================================
+   Figures inside blog posts
+   ========================================================================== */
 
+.blog-figure {
+  width: 100%;
+  margin: 2.75rem 0;
+}
+
+.blog-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.blog-figure figcaption {
+  max-width: 720px;
+  margin: 0.85rem auto 0;
+  color: $gray;
+  font-size: 0.78rem;
+  line-height: 1.65;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .blog-figure {
+    margin: 2rem 0;
+  }
+
+  .blog-figure figcaption {
+    padding: 0 0.35rem;
+    font-size: 0.74rem;
+    text-align: left;
+  }
+}
 
 /* ==========================================================================
    Responsive
