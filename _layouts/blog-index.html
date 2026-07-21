@@ -1,0 +1,24 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html
+  lang="{{ page.lang | default: site.locale | default: 'en' }}"
+  class="no-js"
+>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="blog-index-page">
+    {% include browser-upgrade.html %}
+
+    <main class="blog-shell" role="main">
+      {{ content }}
+    </main>
+
+    {% include scripts.html %}
+  </body>
+</html>
