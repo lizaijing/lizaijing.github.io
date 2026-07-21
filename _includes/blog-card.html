@@ -2,35 +2,31 @@
   <a
     class="blog-card__link"
     href="{{ include.post.url | relative_url }}"
-    aria-label="Read {{ include.post.title | escape }}"
+    aria-label="{{ include.post.title | escape }}"
   >
 
-    {% if include.post.cover %}
-      <div class="blog-card__visual">
+    <div class="blog-card__visual">
+
+      {% if include.post.cover %}
         <img
           src="{{ include.post.cover | relative_url }}"
           alt="{{ include.post.cover_alt | default: include.post.title | escape }}"
           loading="lazy"
         >
+      {% else %}
+        <div class="blog-card__fallback" aria-hidden="true">
+          <span>VLA</span>
+        </div>
+      {% endif %}
 
-        <div class="blog-card__visual-overlay"></div>
-      </div>
-    {% else %}
-      <div class="blog-card__visual blog-card__visual--fallback">
-        <span>Research Note</span>
-      </div>
-    {% endif %}
+      <div class="blog-card__overlay"></div>
+
+    </div>
+
 
     <div class="blog-card__body">
 
       <div class="blog-card__meta">
-        <span class="blog-card__language">
-          {% if include.post.lang == "zh" %}
-            中文
-          {% else %}
-            English
-          {% endif %}
-        </span>
 
         <time datetime="{{ include.post.date | date_to_xmlschema }}">
           {{ include.post.date | date: "%Y.%m.%d" }}
@@ -39,33 +35,37 @@
         {% if include.post.reading_time %}
           <span>{{ include.post.reading_time }}</span>
         {% endif %}
+
       </div>
 
-      <h3 class="blog-card__title">
-        {{ include.post.title }}
-      </h3>
 
-      <p class="blog-card__description">
-        {{ include.post.description
-          | default: include.post.excerpt
-          | strip_html
-          | strip_newlines
-          | truncate: 170 }}
-      </p>
+      <h2 class="blog-card__title">
+        {{ include.post.title }}
+      </h2>
+
+
+      {% if include.post.subtitle %}
+        <p class="blog-card__subtitle">
+          {{ include.post.subtitle }}
+        </p>
+      {% endif %}
+
 
       <footer class="blog-card__footer">
-        <div class="blog-card__tags">
-          {% for tag in include.post.tags limit: 3 %}
-            <span>{{ tag }}</span>
-          {% endfor %}
-        </div>
+        <span>
+          {% if include.post.lang == "zh" %}
+            阅读文章
+          {% else %}
+            Read Article
+          {% endif %}
+        </span>
 
-        <span class="blog-card__read">
-          Read
-          <span class="blog-card__arrow" aria-hidden="true">→</span>
+        <span class="blog-card__arrow" aria-hidden="true">
+          →
         </span>
       </footer>
 
     </div>
+
   </a>
 </article>
