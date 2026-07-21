@@ -6,7 +6,6 @@
   >
 
     <div class="blog-card__visual">
-
       {% if include.post.cover %}
         <img
           src="{{ include.post.cover | relative_url }}"
@@ -18,16 +17,11 @@
           <span>VLA</span>
         </div>
       {% endif %}
-
-      <div class="blog-card__overlay"></div>
-
     </div>
 
-
-    <div class="blog-card__body">
+    <div class="blog-card__content">
 
       <div class="blog-card__meta">
-
         <time datetime="{{ include.post.date | date_to_xmlschema }}">
           {{ include.post.date | date: "%Y.%m.%d" }}
         </time>
@@ -35,14 +29,11 @@
         {% if include.post.reading_time %}
           <span>{{ include.post.reading_time }}</span>
         {% endif %}
-
       </div>
-
 
       <h2 class="blog-card__title">
         {{ include.post.title }}
       </h2>
-
 
       {% if include.post.subtitle %}
         <p class="blog-card__subtitle">
@@ -50,8 +41,7 @@
         </p>
       {% endif %}
 
-
-      <footer class="blog-card__footer">
+      <div class="blog-card__read">
         <span>
           {% if include.post.lang == "zh" %}
             阅读文章
@@ -63,7 +53,7 @@
         <span class="blog-card__arrow" aria-hidden="true">
           →
         </span>
-      </footer>
+      </div>
 
     </div>
 
