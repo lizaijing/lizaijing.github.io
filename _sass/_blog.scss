@@ -1025,3 +1025,79 @@ body.blog-index-page {
     font-size: 1.23rem;
   }
 }
+/* ==========================================================================
+   Compact Card Responsive
+   ========================================================================== */
+
+@media (max-width: 900px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-card {
+    height: 150px;
+  }
+
+  .blog-card__link {
+    grid-template-columns: 230px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-grid {
+    gap: 0.9rem;
+  }
+
+  .blog-card {
+    height: 132px;
+    border-radius: 11px;
+  }
+
+  .blog-card__link {
+    grid-template-columns: 38% minmax(0, 1fr);
+  }
+
+  .blog-card__content {
+    padding: 0.8rem 0.85rem 0.72rem;
+  }
+
+  .blog-card__title {
+    margin-top: 0.5rem;
+    font-size: 0.94rem;
+    line-height: 1.36;
+  }
+
+  .blog-card__subtitle {
+    display: none;
+  }
+
+  .blog-card__read {
+    font-size: 0.61rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .blog-card {
+    height: 122px;
+  }
+
+  .blog-card__link {
+    grid-template-columns: 36% minmax(0, 1fr);
+  }
+
+  .blog-card__content {
+    padding: 0.68rem 0.72rem 0.62rem;
+  }
+
+  .blog-card__meta {
+    font-size: 0.57rem;
+  }
+
+  .blog-card__meta span {
+    display: none;
+  }
+
+  .blog-card__title {
+    font-size: 0.86rem;
+  }
+}
