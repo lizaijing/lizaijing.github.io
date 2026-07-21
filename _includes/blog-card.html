@@ -1,0 +1,56 @@
+<article class="research-card">
+  <a
+    class="research-card__link"
+    href="{{ include.post.url | relative_url }}"
+    aria-label="{{ include.post.title | escape }}"
+  >
+    <div class="research-card__media">
+      {% if include.post.cover %}
+        <img
+          src="{{ include.post.cover | relative_url }}"
+          alt="{{ include.post.cover_alt | default: include.post.title | escape }}"
+          loading="lazy"
+          decoding="async"
+        >
+      {% else %}
+        <div class="research-card__placeholder" aria-hidden="true">
+          <span>VLA</span>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="research-card__content">
+      <div class="research-card__meta">
+        <time datetime="{{ include.post.date | date_to_xmlschema }}">
+          {{ include.post.date | date: "%Y.%m.%d" }}
+        </time>
+
+        {% if include.post.reading_time %}
+          <span aria-hidden="true">·</span>
+          <span>{{ include.post.reading_time }}</span>
+        {% endif %}
+      </div>
+
+      <h2 class="research-card__title">
+        {{ include.post.title }}
+      </h2>
+
+      {% if include.post.subtitle %}
+        <p class="research-card__subtitle">
+          {{ include.post.subtitle }}
+        </p>
+      {% endif %}
+
+      <div class="research-card__footer">
+        <span>
+          {% if include.post.lang == "zh" %}
+            阅读文章
+          {% else %}
+            Read article
+          {% endif %}
+        </span>
+        <span class="research-card__arrow" aria-hidden="true">→</span>
+      </div>
+    </div>
+  </a>
+</article>
