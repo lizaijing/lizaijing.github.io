@@ -1,0 +1,271 @@
+---
+layout: compress
+---
+
+{% assign translations = site.posts
+  | where: "translation_key", page.translation_key %}
+
+{% assign translated_post = nil %}
+
+{% for item in translations %}
+  {% if item.lang != page.lang %}
+    {% assign translated_post = item %}
+  {% endif %}
+{% endfor %}
+
+{% assign stats_key = page.stats_key
+  | default: page.translation_key
+  | default: page.slug %}
+
+{% assign stats_config = site.data.blog_stats %}
+
+<!doctype html>
+<html
+  lang="{{ page.lang | default: site.locale | default: 'en' }}"
+  class="no-js"
+>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="research-article-page">
+    {% include browser-upgrade.html %}
+
+    <div class="reading-progress" aria-hidden="true">
+      <span data-reading-progress></span>
+    </div>
+
+    <main class="research-article-shell" role="main">
+      <nav class="research-article-nav" aria-label="Article navigation">
+        <a
+          class="research-article-nav__back"
+          href="{{ '/blog/' | relative_url }}"
+          target="_self"
+        >
+          <span aria-hidden="true">←</span>
+          <span>
+            {% if page.lang == "zh" %}
+              返回博客
+            {% else %}
+              Back to blog
+            {% endif %}
+          </span>
+        </a>
+
+        {% if translated_post %}
+          <a
+            class="research-article-nav__language"
+            href="{{ translated_post.url | relative_url }}"
+            target="_self"
+          >
+            {% if page.lang == "zh" %}
+              English
+            {% else %}
+              中文
+            {% endif %}
+          </a>
+        {% endif %}
+      </nav>
+
+      <article class="research-article">
+        <header class="research-article__header">
+          <p class="research-article__eyebrow">
+            {% if page.lang == "zh" %}
+              研究随笔
+            {% else %}
+              RESEARCH NOTE
+            {% endif %}
+          </p>
+
+          <div class="research-article__meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+              {% if page.lang == "zh" %}
+                {{ page.date | date: "%Y年%m月%d日" }}
+              {% else %}
+                {{ page.date | date: "%B %d, %Y" }}
+              {% endif %}
+            </time>
+
+            {% if page.reading_time %}
+              <span aria-hidden="true">·</span>
+              <span>{{ page.reading_time }}</span>
+            {% endif %}
+          </div>
+
+          <h1>{{ page.title }}</h1>
+
+          {% if page.subtitle %}
+            <p class="research-article__subtitle">
+              {{ page.subtitle }}
+            </p>
+          {% endif %}
+
+          {% if page.tags %}
+            <div class="research-article__tags" aria-label="Article tags">
+              {% for tag in page.tags %}
+                <span>{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          <div
+            class="research-article__stats"
+            data-blog-stats
+            data-enabled="{{ stats_config.enabled | default: false }}"
+            data-supabase-url="{{ stats_config.supabase_url | escape }}"
+            data-supabase-key="{{ stats_config.supabase_publishable_key | escape }}"
+            data-post-slug="{{ stats_key | slugify }}"
+            data-language="{{ page.lang | default: 'en' }}"
+            aria-label="{% if page.lang == 'zh' %}文章互动数据{% else %}Post engagement{% endif %}"
+          >
+            <span class="research-stat" title="{% if page.lang == 'zh' %}阅读量{% else %}Views{% endif %}">
+              <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                <circle cx="12" cy="12" r="2.8"/>
+              </svg>
+              <strong data-view-count>0</strong>
+              <span>{% if page.lang == "zh" %}阅读{% else %}Views{% endif %}</span>
+            </span>
+
+            <button
+              class="research-stat research-stat--button"
+              type="button"
+              data-like-button
+              aria-pressed="false"
+              title="{% if page.lang == 'zh' %}点赞{% else %}Like{% endif %}"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"/>
+              </svg>
+              <strong data-like-count>0</strong>
+              <span>{% if page.lang == "zh" %}点赞{% else %}Likes{% endif %}</span>
+            </button>
+
+            <button
+              class="research-stat research-stat--button"
+              type="button"
+              data-share-button
+              title="{% if page.lang == 'zh' %}复制文章链接{% else %}Copy article link{% endif %}"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                <circle cx="18" cy="5" r="2.5"/>
+                <circle cx="6" cy="12" r="2.5"/>
+                <circle cx="18" cy="19" r="2.5"/>
+                <path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"/>
+              </svg>
+              <strong data-share-count>0</strong>
+              <span>{% if page.lang == "zh" %}转发{% else %}Shares{% endif %}</span>
+            </button>
+          </div>
+
+          {% if page.pdf or page.paper_url %}
+            <div class="research-article__actions">
+              {% if page.paper_url %}
+                <a
+                  href="{{ page.paper_url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Related paper
+                </a>
+              {% endif %}
+
+              {% if page.pdf %}
+                <a
+                  href="{{ page.pdf | relative_url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download PDF
+                </a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </header>
+
+        {% if page.cover %}
+          <div class="research-article__cover">
+            <div class="research-article__cover-frame">
+              <img
+                class="research-article__cover-image"
+                src="{{ page.cover | relative_url }}"
+                alt="{{ page.cover_alt | default: page.title | escape }}"
+                fetchpriority="high"
+                decoding="async"
+              >
+            </div>
+          </div>
+        {% endif %}
+
+        <div class="research-article__content">
+          {{ content }}
+        </div>
+
+        <footer class="research-article__footer">
+          <p>
+            {% if page.lang == "zh" %}
+              感谢阅读
+            {% else %}
+              Thanks for reading
+            {% endif %}
+          </p>
+
+          <a href="{{ '/blog/' | relative_url }}" target="_self">
+            {% if page.lang == "zh" %}
+              查看全部博客
+            {% else %}
+              View all posts
+            {% endif %}
+            <span aria-hidden="true">→</span>
+          </a>
+        </footer>
+      </article>
+    </main>
+
+    <div
+      class="research-toast"
+      data-blog-toast
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      hidden
+    ></div>
+
+    {% include scripts.html %}
+    <script src="{{ '/assets/js/blog-stats.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var progress = document.querySelector("[data-reading-progress]");
+
+        if (!progress) {
+          return;
+        }
+
+        function updateReadingProgress() {
+          var documentHeight =
+            document.documentElement.scrollHeight - window.innerHeight;
+
+          var percent =
+            documentHeight > 0
+              ? Math.min(
+                  100,
+                  Math.max(0, window.scrollY / documentHeight * 100)
+                )
+              : 0;
+
+          progress.style.width = percent + "%";
+        }
+
+        updateReadingProgress();
+
+        window.addEventListener("scroll", updateReadingProgress, {
+          passive: true
+        });
+
+        window.addEventListener("resize", updateReadingProgress);
+      });
+    </script>
+  </body>
+</html>
