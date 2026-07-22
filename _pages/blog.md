@@ -59,21 +59,10 @@ excerpt: "Research notes on embodied agents, memory systems, and vision-language
       </div>
 
       <a
-        class="research-blog__home"
+        class="research-blog__homepage"
         href="{{ '/' | relative_url }}"
-        target="_self"
-        aria-label="返回个人主页"
       >
-        <svg
-          aria-hidden="true"
-          viewBox="0 0 24 24"
-          focusable="false"
-        >
-          <path
-            d="M3 11.5 12 4l9 7.5M5.5 10.5V20h13v-9.5M9.5 20v-6h5v6"
-          />
-        </svg>
-        <span>个人主页</span>
+        Homepage
       </a>
     </div>
   </header>
