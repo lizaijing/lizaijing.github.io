@@ -1,0 +1,7 @@
+# Supabase public Data API configuration.
+# The publishable key is designed for browser use.
+# Never put a secret key or service_role key in this file.
+
+enabled: true
+supabase_url: "https://ymvzpdmxwpkglifnmrai.supabase.co"
+supabase_publishable_key: "sb_publishable_Y3tBOKp5c8kaZCG0mThp-Q_bIcOS2gE"
